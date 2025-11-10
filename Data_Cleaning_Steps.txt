@@ -1,0 +1,2 @@
+Removed duplicates and empty rows.
+Converted text-based dates into proper Date format.
