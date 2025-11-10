@@ -1,0 +1,2 @@
+1. Removed duplicates and empty rows
+2. Converted text-based dates into proper Date format
