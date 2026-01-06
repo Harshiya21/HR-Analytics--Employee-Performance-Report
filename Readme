@@ -1,18 +1,18 @@
-## Project Overview
+Project Overview
 This project focuses on analyzing employee performance and attrition trends using **Excel**.  
 The goal is to help HR teams understand key metrics related to employee satisfaction, performance, and retention.
 
-## Tools & Techniques
+Tools & Techniques
 - **Microsoft Excel**
   - Data Cleaning  
   - Excel Functions (IF, VLOOKUP, AVERAGEIF, COUNTIF, etc.)  
   - Pivot Tables for summarizing data  
   - Charts for visualization (Bar, Pie, Line charts)
     
-## 🧹 Data Cleaning Steps
+🧹 Data Cleaning Steps
 - Removed duplicate and null records  
 - Corrected data types (date, numeric values)  
 
-## 🧮 Excel Functions Used
+🧮 Excel Functions Used
 =IF([@[Attendence %]]<80,"High Absentee","Low Absentee")  → Classify performance level
 =IF(AD2="Exceeds","High Performer",IF(AD2="Fully Meets","Average Performer",IF(OR(AD2="Needs Improvement",AD2="PIP"),"Low Performer","Check"))) 
